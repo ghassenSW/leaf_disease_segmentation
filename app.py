@@ -32,7 +32,7 @@ if uploaded_file is not None:
 
     # Display results  
     st.subheader("Original Image")
-    st.image(image, use_column_width=True)
+    st.image(image, use_container_width=True)
 
     st.subheader("Predicted Mask")
-    st.image(binary_mask, clamp=True, use_column_width=True)
+    st.image(binary_mask, clamp=True, use_container_width =True)
