@@ -11,7 +11,8 @@ def load_model():
 
 model = load_model()
 
-# Page title
+
+# Page title haha
 st.title("Leaf Disease Segmentation with U-Net")
 
 # Upload an image
@@ -28,9 +29,9 @@ if uploaded_file is not None:
     pred_mask = model.predict(image_input)[0]
 
     # Convert mask to binary
-    binary_mask = (pred_mask > 0.5).astype(np.uint8) * 255
+    binary_mask = (pred_mask > 0.5).astype(np.uint8) * 255  
 
-    # Display results
+    # Display results  
     st.subheader("Original Image")
     st.image(image, use_column_width=True)
 
