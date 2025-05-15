@@ -19,8 +19,8 @@ uploaded_file = st.file_uploader("Upload a leaf image...", type=["jpg", "png", "
 
 if uploaded_file is not None:
     # Read and preprocess the image
-    image = Image.open(uploaded_file).convert('RGB')
-    image = image.resize((128, 128))  # Use your input size
+    image1 = Image.open(uploaded_file).convert('RGB')
+    image = image1.resize((128, 128))  # Use your input size
     image_array = np.array(image) / 255.0
     image_input = np.expand_dims(image_array, axis=0)
 
@@ -32,7 +32,7 @@ if uploaded_file is not None:
 
     # Display results  
     st.subheader("Original Image")
-    st.image(image, use_container_width=True)
+    st.image(image1, use_container_width=True)
 
     st.subheader("Predicted Mask")
     st.image(binary_mask, clamp=True, use_container_width =True)
