@@ -24,7 +24,7 @@ This project uses deep learning to detect and segment disease-affected areas in 
 - 📷 Upload a leaf image from your device.
 - ⚙️ Predict the disease-affected region using a pre-trained U-Net model.
 - 🖼️ Display original image + predicted mask side-by-side.
-- 🌐 Run locally or deploy to [Streamlit Cloud](https://streamlit.io/cloud).
+- 🌐 Run locally or deploy to [Streamlit Cloud](https://leafdiseasesegmentation-aornkexmsemsymjmdsmh6e.streamlit.app/).
 
 ---
 
