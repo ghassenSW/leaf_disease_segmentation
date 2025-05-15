@@ -32,11 +32,9 @@ This project uses deep learning to detect and segment disease-affected areas in 
 
 Below is an example of the model's input and output:
 
-| Leaf Image | Ground Truth Mask | Predicted Mask |
-|------------|-------------------|----------------|
-| ![Leaf](examples/leaf.jpg) | ![Mask](examples/mask.png) | ![Prediction](examples/prediction.png) |
-
-> Make sure to place these images inside an `examples/` folder in your repository to display correctly.
+| Leaf Image | Ground Truth Mask |
+|------------|-------------------|
+| ![Leaf](images/leaf_sample.jpg) | ![Mask](images/mask_sample.png) |
 
 ---
 
