@@ -43,5 +43,5 @@ Below is an example of the model's input and output:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/leaf-disease-segmentation.git
-cd leaf-disease-segmentation
+git clone https://github.com/ghassenSW/leaf_disease_segmentation.git
+cd leaf_disease_segmentation
